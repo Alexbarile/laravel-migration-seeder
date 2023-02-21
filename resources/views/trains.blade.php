@@ -21,6 +21,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    @foreach ($trains as %train )
+                    
+                        
+                    @endforeach
+                        
+                    
                     <div class="min-vh-100 py-5 d-flex flex-column justify-content-center">
                         <div class="logo_laravel">
                             <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-25">
