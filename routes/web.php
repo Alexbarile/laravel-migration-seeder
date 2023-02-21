@@ -14,4 +14,4 @@ use App\Http\Controllers\Trains as Trains;
 |
 */
 
-Route::get('/', [Trains::class, 'index'])->name('homepage');
+Route::get('/', [Trains::class, 'trains'])->name('homepage');

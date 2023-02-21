@@ -10,9 +10,9 @@ use App\Models\Train as Train;
 
 class Trains extends Controller
 {
-    public function index(){
+    public function trains(){
         $trains = Train::all();
-        return view('index');
+        return view('trains', compact('trains'));
 
     }
 }
