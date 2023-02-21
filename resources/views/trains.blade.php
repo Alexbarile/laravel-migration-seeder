@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    @foreach ($trains as %train )
+                    @foreach ($trains as $train )
                     
                         
                     @endforeach
