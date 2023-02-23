@@ -16,8 +16,12 @@ class InfoTrains extends Seeder
      */
     public function run(Faker $faker)
     {
+        // $train = config('trains');
+        // 'trains' è un file in config che ha un array
+
         for($i=0; $i<=10; $i++){
             $newTrain = new Train();
+            // $newTrain->azienda = $train['titolo']
             $newTrain->azienda = $faker->word();
             $newTrain->stazione_partenza = $faker->word();
             $newTrain->stazione_arrivo = $faker->word();
